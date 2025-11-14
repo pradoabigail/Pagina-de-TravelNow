@@ -20,13 +20,20 @@ header {
 }
 
 .logo {
-    font-size: 1.8em;
-    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    gap: 10px;           
 }
 
 .logo img {
-    height: 110px;
+    height: 110px; 
     width: auto;
+}
+
+.logo span {
+    font-size: 1.5rem;  
+    font-weight: bold;
+    color: #ffffff;        
 }
 
 nav a {
@@ -107,6 +114,7 @@ button {
 button:hover {
     background: #005fcc;
 }
+
 
 
 
