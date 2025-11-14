@@ -75,6 +75,12 @@ nav a:hover {
     flex-direction: column;
 }
 
+.formulario label {
+    color: white;       
+    font-weight: bold;   
+    margin-bottom: 5px; 
+}
+
 .formulario input,
 .formulario textarea {
     padding: 12px;
@@ -96,4 +102,5 @@ button {
 button:hover {
     background: #005fcc;
 }
+
 
