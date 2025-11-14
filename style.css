@@ -24,6 +24,11 @@ header {
     font-weight: bold;
 }
 
+.logo img {
+    height: 110px;
+    width: auto;
+}
+
 nav a {
     color: white;
     text-decoration: none;
@@ -102,5 +107,6 @@ button {
 button:hover {
     background: #005fcc;
 }
+
 
 
