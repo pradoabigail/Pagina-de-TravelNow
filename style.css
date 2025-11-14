@@ -10,7 +10,6 @@ body {
     background-attachment: fixed;
 }
 
-/* Header moderno */
 header {
     background: rgba(0,0,0,0.5);
     display: flex;
@@ -36,7 +35,6 @@ nav a:hover {
     border-bottom: 2px solid white;
 }
 
-/* Portada */
 .hero {
     text-align: center;
     margin-top: 150px;
@@ -48,7 +46,6 @@ nav a:hover {
     font-size: 3.5em;
 }
 
-/* Video */
 .video {
     background: rgba(255,255,255,0.9);
     padding: 40px;
@@ -58,7 +55,6 @@ nav a:hover {
     text-align: center;
 }
 
-/* Galería */
 .galeria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -72,7 +68,6 @@ nav a:hover {
     box-shadow: 0 0 10px #aaa;
 }
 
-/* Formulario */
 .formulario {
     width: 50%;
     margin: 40px auto;
@@ -101,3 +96,4 @@ button {
 button:hover {
     background: #005fcc;
 }
+
